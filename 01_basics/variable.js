@@ -1,22 +1,19 @@
-const accountName = "John Doe";
-const accountBalance = 1000;
+// let score = '33abc'
 
-console.log("Account Name:", accountName);
-console.log("Account Balance:", accountBalance);
-// Attempting to change the value of a constant will result in an error
-// accountName = "Jane Doe"; // This will throw an error
-// accountBalance = 2000; // This will also throw an error
 
-// If we want to have a variable that can change, we can use 'let' instead of 'const'
-let mutableAccountName = "John Doe";
-let mutableAccountBalance = 1000;
+// console.log(typeof score);
+// console.log(typeof(score));
 
-console.log("Mutable Account Name:", mutableAccountName);
-console.log("Mutable Account Balance:", mutableAccountBalance);
+// let valueInNumber = Number(score)
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
-// Now we can change the values of these variables
-mutableAccountName = "Jane Doe";
-mutableAccountBalance = 2000;
+// let isLoggedIn = 0
 
-console.log("Updated Mutable Account Name:", mutableAccountName);
-console.log("Updated Mutable Account Balance:", mutableAccountBalance);
+// let boolenIsLoggedIn = Boolean(isLoggedIn)
+// console.log(boolenIsLoggedIn);
+
+let anynumber = 3.14
+
+let stringnumnber = String(anynumber)
+console.log(stringnumnber);
