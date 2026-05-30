@@ -13,3 +13,4 @@ let gameprice3 = 1000
 const gameprice4 = gameprice3++;  // postfix operator
 console.log(gameprice3);
 console.log(gameprice4);
+

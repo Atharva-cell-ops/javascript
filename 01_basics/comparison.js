@@ -10,3 +10,15 @@
 console.log(undefined ==0);
 console.log(undefined > 0);
 console.log(undefined < 0);
+
+
+
+const outsidetemp = null
+let useremail;
+
+const id = symbol('123')
+const anotherid = symbol('123')
+
+console.log(id === anotherid);
+
+
