@@ -12,6 +12,6 @@ let mytimestamp = Date.now()
 console.log(mytimestamp);
 console.log(mycreatedDate.getMinutes());
 
-newDate.toLocaleString('default',{
-    weekday: "Long",
-})
+console.log(new Date().toLocaleString('default', {
+    weekday: "long",
+}));
