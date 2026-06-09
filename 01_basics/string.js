@@ -13,10 +13,14 @@ console.log(typeof gamename);
 console.log(gamename.toUpperCase());
 console.log(gamename.charAt(0));
 
-const newstring = gamename.substring(0,4)
-console.log(newstring);
+const newstring1 = gamename.substring(0,4)
+console.log(newstring1);
 
 const newstring2 = gamename.slice(-8,6)
 console.log(newstring2);
 
 console.log(gamename.split(''));
+
+const newstring = "Atharva"
+console.log(newstring);
+console.log(newstring.trim());
