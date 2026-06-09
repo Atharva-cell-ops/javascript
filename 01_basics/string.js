@@ -24,3 +24,4 @@ console.log(gamename.split(''));
 const newstring = "Atharva"
 console.log(newstring);
 console.log(newstring.trim());
+
