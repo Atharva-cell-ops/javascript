@@ -51,3 +51,14 @@ const obj2 = {3:"a",2:"b"}
 // const obj3 = {obj, obj2}
 const obj3 = Object.assign({},obj,obj2)
 console.log(obj3);
+
+const course = {
+    coursename: "Javascript",
+    price: 999,
+    courseInstructor: "Atharva"
+}
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
+
