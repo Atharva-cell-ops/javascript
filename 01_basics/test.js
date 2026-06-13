@@ -58,9 +58,9 @@
 // getmilk(10);
 
 const prompt = require("prompt-sync")();
-prompt("What's your name:-");
-prompt("What's their name:-")
+prompt("What's your name:- ");
+prompt("What's their name:- ")
 
-var lovescore = Math.random() * 100;
+let lovescore = Math.random() * 100;
 lovescore = Math.floor(lovescore) + 1;
-console.log("your love score is" + lovescore);
+console.log("your love score is:- " + lovescore);
